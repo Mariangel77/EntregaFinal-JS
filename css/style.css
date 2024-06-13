@@ -1,0 +1,88 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+} 
+
+.logo{
+    margin-left: 10%;
+}
+
+.img-fluid{
+    margin-top: 15%;
+}
+
+
+.vinos{
+    margin-top: 10%;
+}
+
+.borrar-vino{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card p {
+    margin: 5px 0;
+    color: white;
+}
+
+.monedas{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.otras-monedas{
+    border-bottom: 1px black;
+    border-top: 1px black;
+}
+
+footer{
+    margin-top: 10%;
+    color: white;
+    background-color: black;
+    padding: 10%;
+}
